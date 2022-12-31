@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import slotCherry from '/Users/nassl/Desktop/LanglopendeTaakWebFrameWork/langlopendetaaknl/src/assets/images/pictures/cherry.png';
-import slotLemon from '/Users/nassl/Desktop/LanglopendeTaakWebFrameWork/langlopendetaaknl/src/assets/images/pictures/lemon.png';
-import slotMelon from '/Users/nassl/Desktop/LanglopendeTaakWebFrameWork/langlopendetaaknl/src/assets/images/pictures/melon.png';
-import slotPrune from '/Users/nassl/Desktop/LanglopendeTaakWebFrameWork/langlopendetaaknl/src/assets/images/pictures/prune.png';
-import slotSeven from '/Users/nassl/Desktop/LanglopendeTaakWebFrameWork/langlopendetaaknl/src/assets/images/pictures/slotSeven.png';
-
+import slotCherry from './assets/images/pictures/cherry.png';
+import slotLemon from './assets/images/pictures/lemon.png'
+import slotMelon from './assets/images/pictures/melon.png'
+import slotPrune from './assets/images/pictures/prune.png'
+import slotSeven from './assets/images/pictures/slotSeven.png'
 export const Slot = ({ value }: { value: number }) => {
     let img = slotCherry;
     switch (value) {
