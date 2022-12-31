@@ -1,0 +1,18 @@
+
+
+  .footercontainer{
+    position: fixed;
+    padding: 1px 0px ;
+    margin: 0px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #515561;
+    color: white
+  }
+
+  .footercontainer p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }

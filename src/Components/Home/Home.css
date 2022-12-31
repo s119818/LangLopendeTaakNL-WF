@@ -1,0 +1,25 @@
+.imgMe{
+    max-width: 200px;
+    max-height: 1000px;
+}
+
+.aboutMe{
+    display: flex;
+}
+
+.homeSection{
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: #D8B199;
+    padding: 1%;
+   margin-top: 5%;
+   border: 2px solid #515561;
+}
+
+p{
+    text-align: justify;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: larger;
+}
